@@ -1,0 +1,274 @@
+ ul {
+ list-style: none;
+}
+
+ul.menu li a:hover {
+ color: rgb(255, 127, 0);
+}
+
+header .logo {
+  width: 100%;
+  display: block;
+}
+
+header .chage-for-col {
+  padding: 0; 
+}
+
+header {
+ background: #3e454d;
+ height: 100px;
+}
+
+header ul.menu {
+ float: right;
+ padding-left: 10px;
+}
+
+header ul.menu li {
+ display: inline-block;
+}
+
+header ul.menu li a {
+ color: #afbaca;
+ font-size: 20px;
+ display: block;
+ padding: 10px 20px;
+}
+
+header ul.menu li:last-child a {
+  padding-right: 0px;
+}
+
+header ul.menu {
+ padding-top: 20px;
+}
+
+header p.text-phone {
+ color: white;
+ font-size: 22px;
+ margin-top: 24px;
+ float: right;
+ padding-right: 20px;
+}
+
+header p.text-mail {
+ color: white;
+ font-size: 12px;
+ /*margin-top: 24px;*/
+ float: right;
+ padding-right: 20px;
+}
+
+/*Стили для главной страницы */
+
+
+.main-page ul.list-catalog {
+ padding: 5px 98px;
+}
+
+.main-page ul.list-catalog a {
+ text-align: center;
+ display: block;
+ padding-top: 10px ;
+ font-size: 16px;
+ color: rgb(82, 88, 94);
+}
+.main-page ul.list-catalog li .active {
+  color: rgb(255, 127, 0);
+}
+.main-page .row.box-for-slider{
+ border-bottom: 10px solid rgb(178, 212, 123);
+ background: url(../img/imgpsh_fullsize.jpg) no-repeat;
+ background-size: cover;
+ height: 325px;
+ color: white;
+}
+
+.btn-next {
+  background: url('../img/next.png') no-repeat;
+  width: 52px;
+  height: 52px;
+  top: 140px;
+  right: 0;
+  position: absolute;
+  z-index: 100;
+  display: block;
+  cursor: pointer; }
+  .btn-next:active {
+    box-shadow: none; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .btn-next {
+      top: 140px; } }
+
+.btn-prev {
+  position: absolute;
+  z-index: 100;
+  top: 140px;
+  left: 0;
+  transform: rotate(180deg);
+  background: url('../img/next.png') no-repeat;
+  width: 52px;
+  height: 52px;
+  cursor: pointer; }
+  .btn-prev:active {
+    box-shadow: none; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .btn-prev {
+      top: 140px; } }
+
+.main-page .row.box-for-slider h5 {
+ margin: 75px 0 30px 0;
+ font-size: 22px;
+ text-transform: uppercase;
+}
+
+.main-page .row.box-for-slider p {
+
+ font-size: 18px;
+}
+
+.main-page h2 {
+ font-size: 25px;
+ text-transform: uppercase;
+ text-align: center;
+ padding: 40px; 
+ margin: 0px;
+}
+
+.main-page .about-us {
+ padding-bottom: 40px;
+}
+
+.main-page .about-img {
+ height: 270px;
+ background: url(../img/Main_Atum-Energy_10.png) no-repeat;
+ background-size: cover;
+
+}
+
+.main-page .about-us p {
+ background: rgb(255, 127, 0);
+ height: 270px;
+ font-size:14px;
+ padding: 85px 50px;
+}
+
+.main-page .advantages {
+ background: rgb(223, 226, 229);
+ padding-bottom: 55px;
+}
+
+.main-page .advantages ul li {
+ text-align: center;
+ font-size: 14px;
+ color: rgb(13, 12, 15);
+}
+
+.main-page .advantages ul li div {
+ width: 53px;
+ height: 53px;
+ display: inline-block;
+ margin: 15px 0px 25px 0px;
+}
+
+.main-page .advantages ul li div.img-a {
+
+ background: url(../img/Main_Atum-Energy_14.png);
+
+}
+
+.main-page .advantages ul li div.img-b {
+
+ background: url(../img/Main_Atum-Energy_16.png);
+}
+
+.main-page .advantages ul li div.img-c {
+
+ background: url(../img/Main_Atum-Energy_19.png);
+}
+
+.main-page .advantages ul li div.img-d {
+
+ background: url(../img/Main_Atum-Energy_21.png);
+
+}
+
+.main-page .our-products p {
+  background: rgb(175, 186, 202);
+  text-align: center;
+  padding: 16px;
+  color: rgb(34, 36, 40);
+}
+
+.main-page .our-products .box-for-img {
+ border: 1px solid rgb(223, 226, 229);
+ border-bottom: 8px solid rgb(223, 226, 229);
+ text-align: center;
+ padding: 10px;
+}
+
+.main-page .our-products .box-for-img img {
+ max-height: 102px;
+}
+
+/*Стили для подвала*/
+
+footer {
+ background: #3e454d;
+ margin: 20px;
+}
+
+footer .chage-for-col {
+ padding: 50px 0px 15px 0px; 
+ font-size: 20px;
+}
+
+footer .chage-for-col:first-child {
+ padding-left: 50px;
+}
+
+footer ul.menu li {
+ margin-bottom: 24px;
+}
+
+footer ul.menu li a {
+ color: #afbaca;
+}
+
+footer span.mail {
+ display: inline-block;
+ height: 15px;
+ width: 20px;
+ background: url('../img/Main_Atum-Energy_43.png') no-repeat;
+}
+footer .box p {
+ display: inline-block;
+}
+
+footer span.phone {
+ display: inline-block;
+ height: 25px;
+ width: 25px;
+ background: url('../img/Main_Atum-Energy_39.png') no-repeat;
+ margin-bottom: 20px;
+}
+
+footer span.marker {
+ display: inline-block;
+ height: 20px;
+ width: 20px;
+ background: url('../img/Main_Atum-Energy_46.png') no-repeat;
+}
+
+div.logo {
+ background: url(../img/Main_Atum-Energy_03.png) no-repeat;
+ height: 78px;
+ /*width: 200px;*/
+ margin-top: 95px; 
+
+}
+
+footer .chage-for-col .text {
+ color: #afbaca;
+}
